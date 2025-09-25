@@ -12,9 +12,9 @@ This assignment is about learning and applying the while loop and iterating thro
 
 ## Reflection Questions
 1. What was difficult for you while completing the match function?
-While completing the match function, the most difficult was where to place the variables of pind and sind whenever the pattern and source differed from each other and which ones equal to each other or to what they equal to. 
+While completing the match function, the most difficult was where to place the variables of pind and sind whenever the pattern and source differed from each other. I was also confused on what they would be equal to when trying to complete the matches.
 
 
 2. Explain how you could use the match function for extracting information from a movie database.
-I could use the match function to check if a movie detail, such as the genre, starts with a specific pattern or word. For example, if I'm searching for all the movies that have a genre of "Action", I can use "match("Action", movie[ "genre" ])" to find them. It can be useful for finding specific types of movies from a broad movie database. 
+I could use the match function to check if a movie detail, such as the genre, to see if it starts with a specific pattern or word. For example, if I'm searching for all the movies that have a genre of "Action", I can use "match("Action", movie[ "genre" ])" to find them. It can be useful for finding specific types of movies from a broad movie database. 
 
