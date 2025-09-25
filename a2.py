@@ -80,7 +80,6 @@ def match(pattern: List[str], source: List[str]) -> List[str]:
     return result
 
 
-
 if __name__ == "__main__":
     assert match(["x", "y", "z"], ["x", "y", "z"]) == [], "test 1 failed"
     assert match(["x", "z", "z"], ["x", "y", "z"]) == None, "test 2 failed"
@@ -107,3 +106,4 @@ if __name__ == "__main__":
     assert match(["x", "%", "z"], ["x", "y", "z", "z", "z"]) == None, "test 16 failed"
 
     print("All tests passed!")
+ 
